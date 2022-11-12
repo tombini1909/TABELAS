@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 1</title>
+</head>
+    <style>
+        table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 450px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    td {
+        border: 1px solid black;
+        
+    }
+    #meio {
+        text-align: center;
+    }
+    #end {
+        text-align: end;
+    }
+    </style>
+<body>
+    <table id="table-1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr id="meio">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr id="end">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table id="table-1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr id="meio">
+            <td colspan="3">4</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table >
+    <br>
+    <hr>
+    <br>
+    <table id="table-1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="3" id="meio">3</td>
+        </tr>
+        <tr id="meio">
+            <td colspan="2">4</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+</body>
+</html>
